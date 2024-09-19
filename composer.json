@@ -1,4 +1,9 @@
 {
+    "name": "pear/http_session2",
+    "description": "More info available on: https://pear.php.net/package/HTTP_Session2",
+    "type": "library",
+    "homepage": "https://pear.php.net/package/HTTP_Session2",
+    "license": "BSD-2-Clause",
     "authors": [
         {
             "email": "till@php.net",
@@ -11,22 +16,10 @@
             "role": "Developer"
         }
     ],
-    "autoload": {
-        "psr-0": {
-            "HTTP": "./"
-        }
-    },
-    "description": "More info available on: http://pear.php.net/package/HTTP_Session2",
-    "include-path": [
-        "./"
-    ],
-    "license": "BSD-2-Clause",
-    "name": "pear/http_session2",
     "support": {
-        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTTP_Session2",
+        "issues": "https://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTTP_Session2",
         "source": "https://github.com/pear/HTTP_Session2"
     },
-    "type": "library",
     "require": {
         "pear/pear_exception": "*"
     },
@@ -37,5 +30,13 @@
         "ext-memcache": "Install ext/memcache for Memcache support",
         "pear/MDB2": "Install pear/mdb2 for MDB2 database support",
         "pear/DB": "Intsall pear/db for DB database support"
-    }
+    },
+    "autoload": {
+        "psr-0": {
+            "HTTP": "./"
+        }
+    },
+    "include-path": [
+        "./"
+    ]
 }
